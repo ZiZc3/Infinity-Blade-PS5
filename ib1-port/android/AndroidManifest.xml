@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Template for both apps (scripts/build-apk.sh fills in the @...@ values): the game is libib3.so in
+     a NativeActivity (GameActivity); LauncherActivity installs it from the player's .ipa first. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="@PACKAGE@"
+    android:versionCode="35"
+    android:versionName="1.9.7.1">
+
+    <uses-feature android:glEsVersion="0x00030000" android:required="true" />
+    <!-- ClashMobs: the community ClashMob server (src/game/clashmob.cpp), and the update check: the app's
+         archive.org page (Updater.java, when the build names one). Nothing else goes online. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Updates: the downloaded new version goes to Android's installer, which asks the player first. -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <application
+        android:label="@LABEL@"
+        android:icon="@mipmap/ic_launcher"
+        android:extractNativeLibs="true"
+        android:isGame="true"
+        android:appCategory="game"
+        android:allowBackup="false"
+        android:networkSecurityConfig="@xml/network_security_config">
+        <!-- The .ipa this app installs from: its bundle id, the version to ask for, the space it needs. -->
+        <meta-data android:name="ib.bundleId" android:value="@BUNDLE_ID@" />
+        <meta-data android:name="ib.ipaVersion" android:value="@IPA_VERSION@" />
+        <meta-data android:name="ib.size" android:value="@SIZE@" />
+        <!-- Updates (Updater.java): the archive.org item with newer <apkName>-<version>.apk files; empty = no checks. -->
+        <meta-data android:name="ib.apkName" android:value="@APK_NAME@" />
+        <meta-data android:name="ib.updatePage" android:value="@UPDATE_PAGE@" />
+        <activity
+            android:name="com.ib3port.game.LauncherActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboard|keyboardHidden|navigation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ib3port.game.GameActivity"
+            android:exported="false"
+            android:theme="@style/GameTheme"
+            android:screenOrientation="sensorLandscape"
+            android:launchMode="singleTask"
+            android:resizeableActivity="false"
+            android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboard|keyboardHidden|navigation|uiMode|density">
+            <meta-data android:name="android.app.lib_name" android:value="ib3" />
+        </activity>
+        <!-- Hands the log report to the app picked in the share sheet (Share logs). -->
+        <provider
+            android:name="com.ib3port.game.ShareProvider"
+            android:authorities="@PACKAGE@.share"
+            android:exported="false"
+            android:grantUriPermissions="true" />
+    </application>
+</manifest>
