@@ -49,7 +49,7 @@ The apps don't include the games.
 ## Credits
 
 - [ib-2-3-android](https://github.com/jelqedagain/ib-2-3-android) (MIT): the port that makes these games run
-  on Android. Its license is included with each app.
+  on Android.
 - [Hydroid](https://github.com/ZiZc3/Hydroid): Android on the PS5.
 - Infinity Blade, Infinity Blade II and Infinity Blade III are by Chair Entertainment and Epic Games.
   This project contains no game files.
