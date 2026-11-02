@@ -18,9 +18,9 @@ All three Infinity Blade games on the PS5, at 60 fps with full controller suppor
 
 | Game | App | Your `.ipa` |
 |---|---|---|
-| Infinity Blade | `PPSA26383 - Infinity Blade.zip` | 1.4.3 (64-bit) |
-| Infinity Blade II | `PPSA26382 - Infinity Blade II.zip` | 1.3.5 |
-| Infinity Blade III | `PPSA26381 - Infinity Blade III.zip` | 1.4.4 |
+| [Infinity Blade](https://github.com/ZiZc3/Infinity-Blade-PS5/releases/download/1.0.0/PPSA26383-Infinity-Blade.zip) | `PPSA26383-Infinity-Blade.zip` | 1.4.3 (64-bit) |
+| [Infinity Blade II](https://github.com/ZiZc3/Infinity-Blade-PS5/releases/download/1.0.0/PPSA26382-Infinity-Blade-II.zip) | `PPSA26382-Infinity-Blade-II.zip` | 1.3.5 |
+| [Infinity Blade III](https://github.com/ZiZc3/Infinity-Blade-PS5/releases/download/1.0.0/PPSA26381-Infinity-Blade-III.zip) | `PPSA26381-Infinity-Blade-III.zip` | 1.4.4 |
 
 ## Installing
 

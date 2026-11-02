@@ -10,9 +10,9 @@ port for the first time, with the parts of iOS it was missing added here.
 
 | Game | App | Your `.ipa` | Status |
 |---|---|---|---|
-| Infinity Blade | PPSA26383 | 1.4.3 (64-bit) | ✅ Playable |
-| Infinity Blade II | PPSA26382 | 1.3.5 | ✅ Playable |
-| Infinity Blade III | PPSA26381 | 1.4.4 | ✅ Playable |
+| [Infinity Blade](https://github.com/ZiZc3/Infinity-Blade-PS5/releases/download/1.0.0/PPSA26383-Infinity-Blade.zip) | PPSA26383 | 1.4.3 (64-bit) | ✅ Playable |
+| [Infinity Blade II](https://github.com/ZiZc3/Infinity-Blade-PS5/releases/download/1.0.0/PPSA26382-Infinity-Blade-II.zip) | PPSA26382 | 1.3.5 | ✅ Playable |
+| [Infinity Blade III](https://github.com/ZiZc3/Infinity-Blade-PS5/releases/download/1.0.0/PPSA26381-Infinity-Blade-III.zip) | PPSA26381 | 1.4.4 | ✅ Playable |
 
 Downloads: [Releases](../../releases).
 
