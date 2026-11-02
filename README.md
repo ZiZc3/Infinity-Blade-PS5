@@ -3,8 +3,7 @@
 **Infinity Blade, Infinity Blade II and Infinity Blade III** PS5 port, running on
 [Hydroid](https://github.com/ZiZc3/Hydroid) with the [ib-2-3-android](https://github.com/jelqedagain/ib-2-3-android) android port.
 
-60 fps, full controller support, Infinity Blade 1 runs on the
-port for the first time, with the parts of iOS it was missing added here.
+60 fps, full controller support.
 
 | Game | App | Your `.ipa` | Status |
 |---|---|---|---|
