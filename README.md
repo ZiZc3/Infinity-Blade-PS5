@@ -5,11 +5,11 @@
 
 60 fps, full controller support.
 
-| Game | App | Your `.ipa`
-|---|---|---|---|
-| [Infinity Blade](https://github.com/ZiZc3/Infinity-Blade-PS5/releases/download/1.0.0/PPSA26383-Infinity-Blade.zip) | PPSA26383 | 1.4.3 (64-bit)
-| [Infinity Blade II](https://github.com/ZiZc3/Infinity-Blade-PS5/releases/download/1.0.0/PPSA26382-Infinity-Blade-II.zip) | PPSA26382 | 1.3.5
-| [Infinity Blade III](https://github.com/ZiZc3/Infinity-Blade-PS5/releases/download/1.0.0/PPSA26381-Infinity-Blade-III.zip) | PPSA26381 | 1.4.4
+| Game | App | Your `.ipa` |
+|---|---|---|
+| [Infinity Blade](https://github.com/ZiZc3/Infinity-Blade-PS5/releases/download/1.0.0/PPSA26383-Infinity-Blade.zip) | `PPSA26383-Infinity-Blade.zip` | 1.4.3 (64-bit) |
+| [Infinity Blade II](https://github.com/ZiZc3/Infinity-Blade-PS5/releases/download/1.0.0/PPSA26382-Infinity-Blade-II.zip) | `PPSA26382-Infinity-Blade-II.zip` | 1.3.5 |
+| [Infinity Blade III](https://github.com/ZiZc3/Infinity-Blade-PS5/releases/download/1.0.0/PPSA26381-Infinity-Blade-III.zip) | `PPSA26381-Infinity-Blade-III.zip` | 1.4.4 |
 
 Downloads: [Releases](../../releases).
 
